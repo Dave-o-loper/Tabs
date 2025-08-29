@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs </title>
+    <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+
+    <div class="tabs">
+        <button class="tab__btn active" data-tab="home">
+            Home
+        </button>
+        <button class="tab__btn" data-tab="profile">
+            Profile
+        </button>
+        <button class="tab__btn" data-tab="settings">
+            Settings
+        </button>
+    </div>
+
+    <div class="tab__content active" id="home">
+        <h2>
+            Home
+        </h2>
+        <p>
+            Welcome to the home tab.
+        </p>
+    </div>
+
+    <div class="tab__content" id="profile">
+        <h2>
+            Profile
+        </h2>
+        <p>
+            This is your profile tab.
+        </p>
+    </div>
+
+    <div class="tab__content" id="settings">
+        <h2>
+            Settings
+        </h2>
+        <p>
+            Adjust your settings here.
+        </p>
+    </div>
+<script src="tab.js"></script>
+</body>
+</html>
